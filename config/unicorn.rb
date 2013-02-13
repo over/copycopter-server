@@ -1,8 +1,8 @@
 worker_processes 4
-working_directory "/home/dev/apps/coub/current"
+working_directory "/home/dev/apps/copycopter/current"
 listen '127.0.0.1:13000'
 timeout 60
-pid "/home/dev/apps/coub/shared/pids/unicorn.pid"
+pid "/home/dev/apps/copycopter/shared/pids/unicorn.pid"
 preload_app true
 
 GC.respond_to?(:copy_on_write_friendly=) and
