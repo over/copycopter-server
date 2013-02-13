@@ -26,6 +26,12 @@ group :development, :test do
   gem 'spork', '0.9.0'
 end
 
+group :development do
+  gem "capistrano"
+  gem "capistrano_colors"
+  gem 'rvm-capistrano'
+end
+
 group :test do
   gem 'bourne', '1.1.1'
   gem 'capybara-webkit', '0.12.1'
